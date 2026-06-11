@@ -1,0 +1,4 @@
+[Thu Jun 11 00:13:17.483408 2026] [authz_core:error] [pid 17336:tid 1236] [client ::1:55878] AH01630: client denied by server configuration: F:/devtools/apache24/docs
+[Thu Jun 11 00:13:26.766298 2026] [authz_core:error] [pid 17336:tid 1240] [client ::1:56927] AH01630: client denied by server configuration: F:/devtools/apache24/docs
+[Thu Jun 11 00:22:01.195774 2026] [authz_core:error] [pid 17336:tid 1232] [client ::1:62861] AH01630: client denied by server configuration: F:/devtools/apache24/docs
+[Thu Jun 11 00:22:01.855452 2026] [authz_core:error] [pid 17336:tid 1232] [client ::1:62861] AH01630: client denied by server configuration: F:/devtools/apache24/docs

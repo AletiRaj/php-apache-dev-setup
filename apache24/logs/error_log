@@ -1,0 +1,60 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Wed Jun 10 21:56:17.373499 2026] [mpm_winnt:notice] [pid 15636:tid 328] AH00455: Apache/2.4.68 (Win64) PHP/8.4.22 configured -- resuming normal operations
+[Wed Jun 10 21:56:17.373499 2026] [mpm_winnt:notice] [pid 15636:tid 328] AH00456: Apache Lounge VS18 Server built: Jun  6 2026 11:03:46
+[Wed Jun 10 21:56:17.373499 2026] [core:notice] [pid 15636:tid 328] AH00094: Command line: 'F:\\devtools\\apache24\\bin\\httpd.exe -d F:/devtools/apache24'
+[Wed Jun 10 21:56:17.421347 2026] [mpm_winnt:notice] [pid 15636:tid 328] AH00418: Parent: Created child process 14988
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Wed Jun 10 21:56:18.591712 2026] [mpm_winnt:notice] [pid 14988:tid 376] AH00354: Child: Starting 64 worker threads.
+(OS 5)Access is denied.  : AH10014: Failed to open the 'Apache2.4' service
+[Wed Jun 10 23:58:48.731646 2026] [mpm_winnt:notice] [pid 15636:tid 328] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jun 10 23:58:50.744714 2026] [mpm_winnt:notice] [pid 14988:tid 376] AH00364: Child: All worker threads have exited.
+[Wed Jun 10 23:58:51.604630 2026] [mpm_winnt:notice] [pid 15636:tid 328] AH00430: Parent: Child process 14988 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Wed Jun 10 23:58:54.689623 2026] [mpm_winnt:notice] [pid 1544:tid 344] AH00455: Apache/2.4.68 (Win64) PHP/8.4.22 configured -- resuming normal operations
+[Wed Jun 10 23:58:54.689623 2026] [mpm_winnt:notice] [pid 1544:tid 344] AH00456: Apache Lounge VS18 Server built: Jun  6 2026 11:03:46
+[Wed Jun 10 23:58:54.689623 2026] [core:notice] [pid 1544:tid 344] AH00094: Command line: 'F:\\devtools\\apache24\\bin\\httpd.exe -d F:/devtools/apache24'
+[Wed Jun 10 23:58:54.713452 2026] [mpm_winnt:notice] [pid 1544:tid 344] AH00418: Parent: Created child process 320
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Wed Jun 10 23:58:55.742931 2026] [mpm_winnt:notice] [pid 320:tid 396] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 11 00:11:00.396775 2026] [mpm_winnt:notice] [pid 1544:tid 344] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 11 00:11:02.415657 2026] [mpm_winnt:notice] [pid 320:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Jun 11 00:11:02.815426 2026] [mpm_winnt:notice] [pid 1544:tid 344] AH00430: Parent: Child process 320 exited successfully.
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host2.example.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Thu Jun 11 00:11:04.500552 2026] [mpm_winnt:notice] [pid 13996:tid 360] AH00455: Apache/2.4.68 (Win64) PHP/8.4.22 configured -- resuming normal operations
+[Thu Jun 11 00:11:04.500552 2026] [mpm_winnt:notice] [pid 13996:tid 360] AH00456: Apache Lounge VS18 Server built: Jun  6 2026 11:03:46
+[Thu Jun 11 00:11:04.500552 2026] [core:notice] [pid 13996:tid 360] AH00094: Command line: 'F:\\devtools\\apache24\\bin\\httpd.exe -d F:/devtools/apache24'
+[Thu Jun 11 00:11:04.529086 2026] [mpm_winnt:notice] [pid 13996:tid 360] AH00418: Parent: Created child process 17336
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host2.example.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Thu Jun 11 00:11:05.568108 2026] [mpm_winnt:notice] [pid 17336:tid 400] AH00354: Child: Starting 64 worker threads.
+[Thu Jun 11 00:48:15.562607 2026] [mpm_winnt:notice] [pid 13996:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jun 11 00:48:17.589765 2026] [mpm_winnt:notice] [pid 17336:tid 400] AH00364: Child: All worker threads have exited.
+[Thu Jun 11 00:48:18.237458 2026] [mpm_winnt:notice] [pid 13996:tid 360] AH00430: Parent: Child process 17336 exited successfully.
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host2.example.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Thu Jun 11 00:48:19.925313 2026] [mpm_winnt:notice] [pid 15168:tid 344] AH00455: Apache/2.4.68 (Win64) PHP/8.4.22 configured -- resuming normal operations
+[Thu Jun 11 00:48:19.925313 2026] [mpm_winnt:notice] [pid 15168:tid 344] AH00456: Apache Lounge VS18 Server built: Jun  6 2026 11:03:46
+[Thu Jun 11 00:48:19.925313 2026] [core:notice] [pid 15168:tid 344] AH00094: Command line: 'F:\\devtools\\apache24\\bin\\httpd.exe -d F:/devtools/apache24'
+[Thu Jun 11 00:48:19.988391 2026] [mpm_winnt:notice] [pid 15168:tid 344] AH00418: Parent: Created child process 20136
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host2.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host.example.com] does not exist
+AH00112: Warning: DocumentRoot [F:/devtools/apache24/docs/dummy-host2.example.com] does not exist
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: F:\\devtools\\php84\\ext\\curl (The specified module could not be found), F:\\devtools\\php84\\ext\\php_curl.dll (The specified procedure could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: F:\\devtools\\php84\\ext\\sodium (The specified module could not be found), F:\\devtools\\php84\\ext\\php_sodium.dll (The specified procedure could not be found)) in Unknown on line 0
+[Thu Jun 11 00:48:21.069335 2026] [mpm_winnt:notice] [pid 20136:tid 344] AH00354: Child: Starting 64 worker threads.
